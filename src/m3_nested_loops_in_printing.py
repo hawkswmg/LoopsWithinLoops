@@ -269,7 +269,7 @@ def triangle_same_number_in_each_row(r):
 
     for k in range(r):
         for i in range(k + 1):
-            print('{}'.format(k + 1), end='')
+            print(k + 1, end='')
         print()
 
 
@@ -317,7 +317,7 @@ def triangle_all_numbers_in_each_row(r):
 
     for k in range(r):
         for i in range(k + 1):
-            print('{}'.format(i + 1), end='')
+            print(i + 1, end='')
         print()
 
 
